@@ -1,0 +1,7 @@
+services:
+  backend:
+    image: ../backend/image/build
+  frontend:
+    image: ../frontend/image/build
+  db:
+    image: postgresql:latest
